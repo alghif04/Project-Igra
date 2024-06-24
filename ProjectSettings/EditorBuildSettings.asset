@@ -141,7 +141,7 @@ EditorBuildSettings:
     path: Assets/Scenes/BasicDelete.unity
     guid: 7723143f85f11c94985a5e0be915b802
   - enabled: 1
-    path: Assets/Scenes/BasicInsert.unity
+    path: Assets/Scenes/AdvancedInsert.unity
     guid: dca28306bf589be4c927278d1e8c48dc
   - enabled: 1
     path: Assets/Scenes/BasicSelect.unity
@@ -149,4 +149,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BasicUpdate.unity
     guid: 00f3b5b37554f0e428f64da20aeb86ab
+  - enabled: 1
+    path: Assets/Scenes/AdvancedDelete.unity
+    guid: c5d2c32350de0834aa970858707e9acb
+  - enabled: 1
+    path: Assets/Scenes/AdvancedUpdate.unity
+    guid: 1f872c23aee121240b42b166ccf8bdde
   m_configObjects: {}

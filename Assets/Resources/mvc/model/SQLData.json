@@ -166,8 +166,27 @@
         "query": "SELECT nama, gaji FROM karyawan WHERE gaji > 50000 ORDER BY gaji DESC ;",
         "tableData": "-",
         "tableImage": "Images/Table18" 
+    },
+    
+    {
+        "index": 25,
+        "query": "INSERT INTO siswa_baru (id, nama, umur) SELECT id, nama, umur FROM siswa_lama ;",
+        "tableData": "-",
+        "tableImage": "Images/Table19" 
+    },
+
+    {
+        "index": 26,
+        "query": "Update pesanan SET status = 'Diarsipkan' WHERE tanggal_pesanan < '2022-01-01' AND id_pelanggan > 100 ;",
+        "tableData": "-",
+        "tableImage": "Images/Table20" 
+    },
+
+    {
+        "index": 27,
+        "query": "DELETE FROM pesanan WHERE tanggal_pesanan < '2022-01-01' AND id_pelanggan > 100 ;",
+        "tableData": "-",
+        "tableImage": "Images/Table21" 
     }
-
-
 
 ]

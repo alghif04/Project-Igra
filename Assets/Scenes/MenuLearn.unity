@@ -920,7 +920,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1844566574}
         m_TargetAssemblyTypeName: LearnMenu, Assembly-CSharp
-        m_MethodName: backMenu
+        m_MethodName: advancedDelete
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1903,7 +1903,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1844566574}
         m_TargetAssemblyTypeName: LearnMenu, Assembly-CSharp
-        m_MethodName: backMenu
+        m_MethodName: advancedUpdate
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3558,7 +3558,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1844566574}
         m_TargetAssemblyTypeName: LearnMenu, Assembly-CSharp
-        m_MethodName: backMenu
+        m_MethodName: advancedInsert
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

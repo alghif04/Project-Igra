@@ -410,6 +410,11 @@ public class SQLCommandButtons : MonoBehaviour
         sqlController.AppendQuery("(id, nama, umur)");
     }
 
+    public void OnInsertSiswaWOColumnButtonClick()
+    {
+        sqlController.AppendQuery("id, nama, umur");
+    }
+
     public void OnUmurButtonClick()
     {
         sqlController.AppendQuery("umur");
@@ -452,6 +457,41 @@ public class SQLCommandButtons : MonoBehaviour
     public void OnDescButtonClick()
     {
         sqlController.AppendQuery("DESC");
+    }
+
+    public void OnSiswaLamaButtonClick()
+    {
+        sqlController.AppendQuery("siswa_lama");
+    }
+
+    public void OnSiswaBaruButtonClick()
+    {
+        sqlController.AppendQuery("siswa_baru");
+    }
+
+    public void OnpesananButtonClick()
+    {
+        sqlController.AppendQuery("pesanan");
+    }
+
+    public void OnTanggalpesananButtonClick()
+    {
+        sqlController.AppendQuery("tanggal_pesanan");
+    }
+
+    public void OnDiarsipkanButtonClick()
+    {
+        sqlController.AppendQuery("'Diarsipkan'");
+    }
+
+    public void OnFirstJanuaryButtonClick()
+    {
+        sqlController.AppendQuery("< '2022-01-01'");
+    }
+
+    public void OnIDPelangganButtonClick()
+    {
+        sqlController.AppendQuery("AND id_pelanggan > 100");
     }
 
 }
