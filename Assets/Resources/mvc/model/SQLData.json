@@ -1,0 +1,173 @@
+[
+    {
+        "index": 0,
+        "query": "SELECT * FROM Jalan WHERE Lokasi = 'pantai' ;",
+        "tableData": "-",
+        "tableImage": "Images/Table1" 
+    },
+    {
+        "index": 1,
+        "query": "SELECT * FROM Jalan WHERE Destinasi = 'airTerjun' ;",
+        "tableData": "-",
+        "tableImage": "Images/Table2" 
+    },
+
+    {
+        "index": 2,
+        "query": "SELECT nama FROM WargaDesa WHERE aktivitas = 'mengambil air' ;",
+        "tableData": "-",
+        "tableImage": "Images/Table3" 
+    },
+
+    {
+        "index": 3,
+        "query": "INSERT INTO Persediaan (item, kuantitas) VALUES ('buah', 20), ('ikan', 5) ;",
+        "tableData": "-",
+        "tableImage": "Images/Table4" 
+    },
+
+    {
+        "index": 4,
+        "query": "SELECT * FROM hewan WHERE nama_hewan = 'babi hutan' ;",
+        "tableData": "-",
+        "tableImage": "Images/Table5" 
+    },
+
+    {
+        "index": 5,
+        "query": "Update perburuan SET status = 'selesai' WHERE hewan = 'babi hutan' ;",
+        "tableData": "-",
+        "tableImage": "Images/Table6" 
+    },
+
+    {
+        "index": 6,
+        "query": "SELECT * FROM herbal WHERE tingkat = 'langka' ;",
+        "tableData": "-",
+        "tableImage": "Images/Table7" 
+    },
+
+    {
+        "index": 7,
+        "query": "DELETE * FROM hutan WHERE Barang = 'tumbuhan langka' ;",
+        "tableData": "-",
+        "tableImage": "Images/Table8" 
+    },
+
+    {
+        "index": 8,
+        "query": "INSERT INTO keputusan VALUES 'membangun perahu' ;",
+        "tableData": "-",
+        "tableImage": "Images/Table9a" 
+    },
+
+    {
+        "index": 9,
+        "query": "Update keputusan SET status = 'konfirmasi' WHERE Pilihan = 'membangun perahu' ;",
+        "tableData": "-",
+        "tableImage": "Images/Table10a" 
+    },
+
+    {
+        "index": 10,
+        "query": "Update keputusan SET status = 'konfirmasi' WHERE Pilihan = 'memperbaiki desa' ;",
+        "tableData": "-",
+        "tableImage": "Images/Table10b" 
+    },
+
+    {
+        "index": 11,
+        "query": "Update keputusan SET status = 'konfirmasi' WHERE Pilihan = 'menjelajahi hutan' ;",
+        "tableData": "-",
+        "tableImage": "Images/Table10c" 
+    },
+
+    {
+        "index": 12,
+        "query": "INSERT INTO keputusan VALUES 'memperbaiki desa' ;",
+        "tableData": "-",
+        "tableImage": "Images/Table9b" 
+    },
+
+    {
+        "index": 13,
+        "query": "INSERT INTO keputusan VALUES 'menjelajahi hutan' ;",
+        "tableData": "-",
+        "tableImage": "Images/Table9c" 
+    },
+
+    {
+        "index": 14,
+        "query": "INSERT INTO tugasSelesai (tugas, status) VALUES ('membangun perahu', 'selesai') ;",
+        "tableData": "-",
+        "tableImage": "Images/Table12a" 
+    },
+    {
+        "index": 15,
+        "query": "INSERT INTO tugasSelesai (tugas, status) VALUES ('memperbaiki desa', 'selesai') ;",
+        "tableData": "-",
+        "tableImage": "Images/Table12b" 
+    },
+    {
+        "index": 16,
+        "query": "INSERT INTO tugasSelesai (tugas, status) VALUES ('menjelajahi hutan', 'selesai') ;",
+        "tableData": "-",
+        "tableImage": "Images/Table12c" 
+    },
+    {
+        "index": 17,
+        "query": "SELECT * FROM sumberDaya WHERE tujuan = 'membangun perahu' ;",
+        "tableData": "-",
+        "tableImage": "Images/Table11a" 
+    },
+    {
+        "index": 18,
+        "query": "SELECT * FROM sumberDaya WHERE tujuan = 'memperbaiki desa' ;",
+        "tableData": "-",
+        "tableImage": "Images/Table11b" 
+    },
+    {
+        "index": 19,
+        "query": "SELECT * FROM sumberDaya WHERE tujuan = 'menjelajahi hutan' ;",
+        "tableData": "-",
+        "tableImage": "Images/Table11c" 
+    },
+
+    {
+        "index": 20,
+        "query": "SELECT * FROM siswa ;",
+        "tableData": "-",
+        "tableImage": "Images/Table14" 
+    },
+
+    {
+        "index": 21,
+        "query": "INSERT INTO siswa (id, nama, umur) VALUES (4, 'Dede', 12) ;",
+        "tableData": "-",
+        "tableImage": "Images/Table15" 
+    },
+
+    {
+        "index": 22,
+        "query": "Update siswa SET umur = 10 WHERE id = 1 ;",
+        "tableData": "-",
+        "tableImage": "Images/Table16" 
+    },
+
+    {
+        "index": 23,
+        "query": "DELETE FROM siswa WHERE id = 1 ;",
+        "tableData": "-",
+        "tableImage": "Images/Table17" 
+    },
+
+    {
+        "index": 24,
+        "query": "SELECT nama, gaji FROM karyawan WHERE gaji > 50000 ORDER BY gaji DESC ;",
+        "tableData": "-",
+        "tableImage": "Images/Table18" 
+    }
+
+
+
+]
