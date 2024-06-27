@@ -155,4 +155,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AdvancedUpdate.unity
     guid: 1f872c23aee121240b42b166ccf8bdde
+  - enabled: 1
+    path: Assets/Scenes/QuestionDelete.unity
+    guid: 1c916638aa518ef41baaa6b8e4c0928e
+  - enabled: 1
+    path: Assets/Scenes/QuestionInsert.unity
+    guid: d4e5b4c33c62a904691de78b6341990a
+  - enabled: 1
+    path: Assets/Scenes/QuestionSelect.unity
+    guid: a32ba9374a0bd354db1dcfc3b71f0b0c
+  - enabled: 1
+    path: Assets/Scenes/QuestionUpdate.unity
+    guid: 77c82da95ed8a104ba87e930780afd6a
+  - enabled: 1
+    path: Assets/Scenes/MenuPractice.unity
+    guid: e8feb18999db4634c9fece656d4b1c84
   m_configObjects: {}

@@ -23,8 +23,8 @@ namespace mvc.model
     public class SQLModel
     {
         public List<SQLData> sqlDataList = new List<SQLData>();
-        public const string IncorrectQueryMessage = "You have been incorrect for so many times please consult your instructor";
-        public const string IncompleteQueryMessage = "All SQL queries should end with a ';'.";
+        public const string IncorrectQueryMessage = "Anda telah salah berkali-kali, silakan berkonsultasi dengan guru Anda";
+        public const string IncompleteQueryMessage = "Semua kueri SQL harus diakhiri dengan tanda ';'.";
 
         private int incorrectCount = 0; // Track the number of incorrect attempts
         private const int MaxIncorrectAttempts = 5; // Maximum allowed incorrect attempts

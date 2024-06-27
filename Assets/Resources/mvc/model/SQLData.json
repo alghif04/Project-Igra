@@ -187,6 +187,34 @@
         "query": "DELETE FROM pesanan WHERE tanggal_pesanan < '2022-01-01' AND id_pelanggan > 100 ;",
         "tableData": "-",
         "tableImage": "Images/Table21" 
+    },
+
+    {
+        "index": 28,
+        "query": "SELECT nama, umur FROM karyawan ;",
+        "tableData": "-",
+        "tableImage": "Images/Table22" 
+    },
+
+    {
+        "index": 29,
+        "query": "INSERT INTO produk (nama_produk, harga, jumlah) VALUES ('Kursi', 50.00, 100) ;",
+        "tableData": "-",
+        "tableImage": "Images/Table23" 
+    },
+
+    {
+        "index": 30,
+        "query": "Update pesanan SET status = 'Dikirim' WHERE tanggal_pesanan < '2022-01-01' ;",
+        "tableData": "-",
+        "tableImage": "Images/Table24" 
+    },
+
+    {
+        "index": 31,
+        "query": "DELETE FROM pelanggan WHERE tanggal_pembelian < '2022-01-01' ;",
+        "tableData": "-",
+        "tableImage": "Images/Table25" 
     }
 
 ]

@@ -494,4 +494,33 @@ public class SQLCommandButtons : MonoBehaviour
         sqlController.AppendQuery("AND id_pelanggan > 100");
     }
 
+    public void OnProdukButtonClick()
+    {
+        sqlController.AppendQuery("produk"); 
+    }
+
+    public void OnKursiButtonClick()
+    {
+        sqlController.AppendQuery("('Kursi', 50.00, 100)"); 
+    }
+
+    public void OnKursiKolomButtonClick()
+    {
+        sqlController.AppendQuery("(nama_produk, harga, jumlah)");
+    }
+
+    public void OnDikirimButtonClick()
+    {
+        sqlController.AppendQuery("'Dikirim'");
+    }
+
+    public void OnPelangganButtonClick()
+    {
+        sqlController.AppendQuery("pelanggan");
+    }
+
+    public void OnTanggal_PembelianButtonClick()
+    {
+        sqlController.AppendQuery("tanggal_pembelian");
+    }
 }

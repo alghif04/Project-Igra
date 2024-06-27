@@ -20,4 +20,9 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("MenuLearn");
     }
+
+    public void PracticeGame()
+    {
+        SceneManager.LoadScene("MenuPractice");
+    }
 }
